@@ -1,0 +1,438 @@
+<html>
+    <head>
+     <title>sunflower</title>
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+          .myslides{display:none;}
+          .checked{
+               color:orange;
+          }
+          
+          .dropdown{
+               position:relative;
+               display:inline-block;
+          }
+          .dropdown-content{
+               display:none;
+               position:absolute;
+               background-color:aliceblue;
+               min-width:160px;
+               box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+               padding:12px 16px;
+          }
+          .dropdown:hover.dropdown-content{
+               display:block;
+          }
+          .zoom:hover{
+               transition: transform 0.6s;
+               transform:scale(1.07);
+          }
+     </style>
+        </head>
+        <body>
+             <form>
+      <table border="0" width="100%" bgcolor="pink">
+           <tr>
+                <td align="center"><img src="logo.png"></td>
+                <td align="center"><input type="text" placeholder="search for flowers"
+                      style="width:550px;height: 35px ;">
+                    <input type="button" value="search" style="width:120px;height:35px;"</td>
+                <th align="center">Login & Signup</th>
+                <th align="center">More</th>
+                <th align="center"><img src="cart.jpg"></th>
+           </tr>
+      </table>
+      <table border="0" width="100%" bgcolor="white" height="8%">
+           <tr>
+                <th width="12.5%">
+                     <div class="dropdown">
+                          <span>Type</span>
+                     <div class="dropdown-content">
+                          <p>Best seller</p>
+                          <p>New arrival</p>
+                          </div>
+                          </div>
+                         </th>
+
+               
+                <th width="12.5%">
+                    <div class="dropdown">
+               <span>Occassions</span>
+               <div class="dropdown-content">
+               <p>Birthday</p>
+                    <p>Wedding</p>
+                         </div>
+                         </div>
+                         </th>
+               
+              
+               <th width="12.5%">
+                    <div class="dropdown">
+               <span>Arrangements</span>
+               <div class="dropdown-content">
+               <p>Flower bouquet</p>
+               <p>Vase arrangement</p>
+              <p>Box arrangement</p>
+                </div>
+                </div>
+                </th>
+
+                
+               <th width="12.5%">
+                    <div class="dropdown">
+               <span>By color</span>
+                <div class="dropdown-content">
+               <p>red</p>
+                <p>pink</p>
+               <p>yellow</p>
+               </div>
+               </div>
+               </th>
+
+               
+               <th width="12.5%">
+                    <div class="dropdown">
+           <span>Combo</span>
+          <div class="dropdown-content">
+          <p>Flower and teddy</p>
+          <p>Flower and cake</p>
+          <p>Flower and chocolates</p>
+          </div>
+           </div>
+             </th>
+
+                
+                 <th width="12.5%">
+                    <div class="dropdown">
+               <span>Need today?</span>
+                <div class="dropdown-content">
+                           <p>same day delivery</p>
+                      <p>midnight delivery</p>
+                    </div>
+                </div>
+               </th>
+
+                    
+                               <th width="12.5%">
+                                   <div class="dropdown">
+                         <span>Artifial flowers</span>
+                         <div class="dropdown-content">
+                                           <p>Flower bouquet</p>
+                                    <p>Vase/box arrangement</p>
+                                           <p>single flower</p>
+                                        </div>
+                                    </div>
+                          </th>
+
+           </tr>
+      </table>
+      
+      <img src="banner.jpg" width="100%" height="46%">
+
+      <br><br>
+      <table border="0" width="100%" bgcolor="white">
+           <tr>
+                <td colspan="4"><h2>Vase arrangement</h2><hr></td>
+                <tr>
+                     <th><img src="vasesunflower1.jpg" width="75%" class="zoom"></th>
+                     <th><img src="vasesunflower2.jpg" width="75%" class="zoom"></th>
+                     <th><img src="vasesunflower3.jpg" width="75%" class="zoom"></th>
+                     <th><img src="vasesunflower4.jpg" width="75%" class="zoom"></th>
+                </tr>
+                <tr>
+                     <th>
+                <span class="fa fa-star checked" style="color:orange;"></span>
+                <span class="fa fa-star checked" style="color:orange;"></span>
+                <span class="fa fa-star checked" style="color:orange;"></span>
+                <span class="fa fa-star " style="color:orange;"></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star " style="color:orange;"></span>
+                    </th>
+                    <th>
+                       
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star " style="color:orange;"></span>
+                         </th>
+                         <th>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star " style="color:orange;"></span>
+                              </th>
+                <tr>
+
+                     <th>price:<font color="green"> 1499/-</font></th>
+                     <th>price:<font color="green"> 1199/-</font></th>
+                     <th>price: <font color="green">949/-</font></th>
+                     <th>price:<font color="green">1199/-</font></th>
+               <tr>
+                    <th><input type="button" value="show details"
+                    style="width:150px;height:30px;background-color:lightgrey;"></th>
+                    <th><input type="button" value="show details"
+                         style="width:150px;height:30px;background-color:lightgrey;"></th>
+                         <th><input type="button" value="show details"
+                              style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              <th><input type="button" value="show details"
+                                   style="width:150px;height:30px;background-color:lightgrey;"></th>
+                  
+      </table>
+      <br>
+      <table border="0" width="100%" bgcolor="white">
+          <tr>
+               <td colspan="4"><h2>Bouquet sunflower</h2><hr></td>
+               <tr>
+                    <th><img src="bouqtsunflower1.jpg" width="75%" class="zoom"></th>
+                    <th><img src="bouqtsunflower2.jpg" width="75%"class="zoom"></th>
+                    <th><img src="bouqtsunflower3.jpg" width="75%" class="zoom"></th>
+                    <th><img src="bouqtsunflower4.jpg" width="75%" class="zoom"></th>
+               </tr>
+               <tr>
+                    <th>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star " style="color:orange;"></span>
+               </th>
+               <th>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star " style="color:orange;"></span>
+                    </th>
+                    <th>
+                         
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star " style="color:orange;"></span>
+                         </th>
+                         <th>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star " style="color:orange;"></span>
+                              </th>
+               <tr>
+                    <th>price:<font color="green">499/-</font></th>
+                    <th>price: <font color="green">899/-</font></th>
+                    <th>price:<font color="green"> 1049/-</font></th>
+                    <th>price:<font color="green"> 1549/-</font></th>
+                    <tr>
+                    <th><input type="button" value="show details"
+                         style="width:150px;height:30px;background-color:lightgrey;"></th>
+                         <th><input type="button" value="show details"
+                              style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              <th><input type="button" value="show details"
+                                   style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                   <th><input type="button" value="show details"
+                                        style="width:150px;height:30px;background-color:lightgrey;"></th>
+                        
+     </table>
+     <table border="0" width="100%" bgcolor="white">
+          <tr>
+               <td colspan="4"><h2>Box arrangement</h2><hr></td>
+               <tr>
+                    <th><img src="boxsunflower.jpg" width="75%" class="zoom"></th>
+                    <th><img src="boxsunflower1.jpg" width="75%" class="zoom"></th>
+                    <th><img src="boxsunflower2.jpg" width="75%" class="zoom"></th>
+                    <th><img src="boxsunflower3.jpg" width="75%" class="zoom"></th>
+               </tr>
+               <tr>
+                    <th>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star " style="color:orange;"></span>
+               </th>
+               <th>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star " style="color:orange;"></span>
+                    </th>
+                    <th>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star " style="color:orange;"></span>
+                         </th>
+                         <th>
+                             
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star " style="color:orange;"></span>
+                              </th>
+               <tr>
+                    <th>price:<font color="green">1499/-</font></th>
+                    <th>price: <font color="green">1599/-</font></th>
+                    <th>price:<font color="green"> 2049/-</font></th>
+                    <th>price:<font color="green"> 1499/-</font></th>
+                    <tr>
+                         <th><input type="button" value="show details"
+                              style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              <th><input type="button" value="show details"
+                                   style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                   <th><input type="button" value="show details"
+                                        style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                        <th><input type="button" value="show details"
+                                             style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              
+     </table>
+     <table border="0" width="100%" bgcolor="white">
+          <tr>
+               <td colspan="4"><h2>Different types of sunflower</h2><hr></td>
+               <tr>
+                    <th><img src="commonsunflower.jpg" width="75%" class="zoom"></th>
+                    <th><img src="helianthusgiganteus.jpg" width="75%" class="zoom"></th>
+                    <th><img src="woodlandsunflower.jpg" width="75%" class="zoom"></th>
+                    <th><img src="perennialsunflower.jpg" width="75%" class="zoom"></th>
+               </tr>
+               <tr>
+                    <th>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star " style="color:orange;"></span>
+               </th>
+               <th>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star " style="color:orange;"></span>
+                    </th>
+                    <th>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star " style="color:orange;"></span>
+                         </th>
+                         <th>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star " style="color:orange;"></span>
+                              </th>
+               <tr>
+                    <th>price:<font color="green">55/-</font></th>
+                    <th>price:<font color="green"> 99/-</font></th>
+                    <th>price:<font color="green"> 55/-</font></th>
+                    <th>price: <font color="green">30/-</font></th>
+                    <tr>
+                         <th><input type="button" value="show details"
+                              style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              <th><input type="button" value="show details"
+                                   style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                   <th><input type="button" value="show details"
+                                        style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                        <th><input type="button" value="show details"
+                                             style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              
+                         </table>
+     <table border="0" width="100%" bgcolor="white">
+          <tr>
+               <td colspan="4"><h2>Artificial flowers</h2><hr></td>
+               <tr>
+                    <th><img src="artisunflower1.jpg" width="75%" class="zoom"></th>
+                    <th><img src="artisunflower2.jpg" width="75%" class="zoom"></th>
+                    <th><img src="artisunflower3.jpg" width="75%" class="zoom"></th>
+                    <th><img src="artisunflower4.jpg" width="75%" class="zoom"></th>
+               </tr>
+               <tr>
+                    <th>
+               <span class="fa fa-star checked" style="color:orange;"></span>
+              
+               <span class="fa fa-star checked" style="color:orange;"></span>
+               <span class="fa fa-star " style="color:orange;"></span>
+               </th>
+               <th>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star checked" style="color:orange;"></span>
+                    <span class="fa fa-star " style="color:orange;"></span>
+                    </th>
+                    <th>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star checked" style="color:orange;"></span>
+                         <span class="fa fa-star " style="color:orange;"></span>
+                         </th>
+                         <th>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                              <span class="fa fa-star checked" style="color:orange;"></span>
+                           
+                              </th>
+               <tr>
+                    <th>price:<font color="green"> 749/-</font></th>
+                    <th>price:<font color="green"> 1049/-</font></th>
+                    <th>price:<font color="green">1399/-</font></th>
+                    <th>price:<font color="green"> 1049/-</font></th>
+                    <tr>
+                         <th><input type="button" value="show details"
+                              style="width:150px;height:30px;background-color:lightgrey;"></th>
+                              <th><input type="button" value="show details"
+                                   style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                   <th><input type="button" value="show details"
+                                        style="width:150px;height:30px;background-color:lightgrey;"></th>
+                                        <th><input type="button" value="show details"
+                                             style="width:150px;height:30px;background-color:lightgrey;"></th>
+                    
+     </table>
+     <table border="1" width="100%" bgcolor="pink">
+          <tr>
+               <td bgcolor="pink" width="25%"><font color="black"><b>follow us</b></font></td>
+               <td bgcolor="pink" width="25%"><font color="black"><b>contact</b></font></td>
+               <td bgcolor="pink" width="25%"><font color="black"><b>search</b></font></td>
+          </tr>
+          <tr>
+               
+               
+          
+          
+               <td>
+                    <ul>
+                         <li>facebook</li>
+                         <li>twitter</li>
+                         <li>instagram</li>
+                         <li>youtube</li>
+                         
+                    </ul>
+               
+               <td>
+                    <ul>
+                         <li>agar flowers</li>
+                         <li>+91 8956743892</li>
+                         <li>india</li>
+                         <li>785456</li>
+                         
+                    </ul>
+               <td><input type="text" placeholder="search">
+                    <input type="button" value="search">
+               </td>
+               </tr>
+          
+     </table>
+     <script>
+          var myindex=0;
+          carousel();
+
+          function carousel (){
+               var i;
+               var x=document.getElementsByClassName("myslides");
+               for(i=0;i<x.length;i++){
+             x[i].style.display="none";
+               }
+               myindex++;
+               if(myidex>x.length)
+               { myindex=1}
+               x[myindex-1].style.display="block";
+               setTimeout(carousel,3000); //image change 2secnds
+          }
+        </body>
+        </html>
+  
